@@ -2,9 +2,23 @@
 
 Repositório para blog da disciplina de Desenvolvimento de Software Livre 2025, onde são postadas informações sobre o andamento do projeto.
 
-## Anteriormente
+## 26/02/2025 (tutorial 1)
 
-Tentei formar uma dupla com um outro aluno chamado Lucas Harada, com quem fiz o primeiro tutorial da disciplina. Porém, ele acabou saindo da disciplina por conta de sua matrícula ter sido indeferida. Continuei por um tempo fazendo os tutoriais sem uma dupla, tentando focar em praticar e lembrar do processo de criação de um novo patch.
+Tentei formar uma dupla com um outro aluno chamado Lucas Harada, com quem fiz o primeiro tutorial da disciplina. Como não havia levado meu notebook no dia, pois não sabia que ele seria necessário, não pude fazer o tutorial 1 em sala de aula. Deixei para fazer em casa, aproveitando o feriado na semana seguinte. Entretanto, não concluí o tutorial, ficando preso na parte de inicializar a máquina virtual.
+
+## 05/03/2025
+
+Não teve aula por causa do feriado.
+
+## 12/03/2025 (tutorial 2)
+
+Nessa semana recebi a notícia que minha dupla não continuaria na disciplina, pois sua matrícula havia sido indeferida. Tinha então que encontrar uma outra dupla para continuar, mas a maioria das duplas já estava formada. Foquei então em me concentrar nos tutoriais e ver uma dupla quando começasse o período de contribuição para o Kernel Linux. Nessa semana consegui terminar o tutorial 1 com a ajuda do monitor David, e finalmente consegui inicializar o SO na máquina virtual.
+
+## 19/03/2025 (tutorial 3)
+
+
+
+## 26/03/2025 (tutorial 4)
 
 ## 02/04/2025
 
