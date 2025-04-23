@@ -12,15 +12,21 @@ Não teve aula por causa do feriado.
 
 ## 12/03/2025 (tutorial 2)
 
-Nessa semana recebi a notícia que minha dupla não continuaria na disciplina, pois sua matrícula havia sido indeferida. Tinha então que encontrar uma outra dupla para continuar, mas a maioria das duplas já estava formada. Foquei então em me concentrar nos tutoriais e ver uma dupla quando começasse o período de contribuição para o Kernel Linux. Nessa semana consegui terminar o tutorial 1 com a ajuda do monitor David, e finalmente consegui inicializar o SO na máquina virtual.
+Nessa semana recebi a notícia que minha dupla não continuaria na disciplina, pois sua matrícula havia sido indeferida. Tinha então que encontrar uma outra dupla para continuar, mas a maioria das duplas já estava formada. Foquei então em me concentrar nos tutoriais e ver uma dupla quando começasse o período de contribuição para o Kernel Linux. Nessa semana consegui terminar o tutorial 1 com a ajuda do monitor David, e finalmente consegui inicializar o SO na máquina virtual. 
+
+Nessa semana as duplas que usariam o software kw (que automatiza processos de contribuição para o Kernel Linux) foram escolhidos, sendo a minha dupla uma delas. Iniciei o tutorial 2, mas novamente não consegui terminar por conta de outro problema, dessa vez durante o processo de clonar a árvore do Kernel.
 
 ## 19/03/2025 (tutorial 3)
 
-
+Nessa semana terminei o tutorial 2, finalmente, e iniciei o tutorial 3. Como nas semanas passadas, fiquei preso na metade do tutorial. Neste tutorial, foi criado um novo módulo para o Kernel, demonstrando o processo de compilar um novo módulo. Por algum motivo, meu módulo que copiei para a minha máquina virtual não executava.
 
 ## 26/03/2025 (tutorial 4)
 
+O tutorial 4 foi o único tutorial que consegui concluir sem ajuda do monitor na semana seguinte. Também nessa semana consegui resolver o problema do meu computador, que comprei no início do ano e travava em determinados momentos. Descobri que o problema era a incompatibilidade entre o Kernel da minha máquina e o driver da GPU Nvidia. Para resolver, tive que instalar um Kernel mais antigo, com maior compatibilidade, e torná-lo o meu Kernel padrão. 
+
 ## 02/04/2025
+
+Foram passados os tutoriais 5 e 6, mas nao houve tempo de fazer na aula, por conta de uma apresentação do Nelson Lago e de uma transmissão do Marcelo Schmitt, que nos deu as últimas instruções para a criação de patches e seu envio..
 
 Foi aceito pelo professor o meu trio, formado por:
 
@@ -30,7 +36,7 @@ Foi aceito pelo professor o meu trio, formado por:
 
 - Octavio Carneiro
 
-## 09/04/2025
+## 09/04/2025 (criação de patch para o Kernel Linux)
 
 Iniciamos a criação de um patch para o Kernel Linux com base em algumas sugestões do Marcelo Schmitt. Eu e meu grupo escolhemos os seguintes patches:
 
@@ -105,5 +111,11 @@ static int dps310_get_temp_precision(struct dps310_data *data, int *val)
 	return dps310_get_precision(data, val, 1);
 }
 ```
+## 16/04/2025
 
+Não teve aula. Semana da Páscoa.
+
+## 23/04/2025
+
+Apresentação dos patches feitos duas semanas antes.
 
