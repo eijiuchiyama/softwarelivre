@@ -136,19 +136,19 @@ static int dps310_get_temp_precision(struct dps310_data *data, int *val)
     content: 'Apresentação dos patches feitos duas semanas antes.'
   },
   {
-    color: 'darkblue',
+    color: 'indigo',
     date: '30/04/2025',
     title: 'Apresentação das possíveis contribuições para a disciplina',
     content: 'Algumas apresentações de projetos que podemos conribuir na segunda metade da disciplina, incluindo uma do Otávio e Felipe Aníbal sobre o GNOME.'
   },
   {
-    color: 'darkblue',
+    color: 'indigo',
     date: '07/05/2025',
     title: 'Decisão de contribuição',
     content: 'Decidimos que contribuiríamos para o Git para uma das ideias presentes no site https://git.github.io/SoC-2025-Microprojects/ para o Google Summer of Code. Tive a ideia de contribuir para um aplicativo do GNOME, como o Monitor do Sistema, em parte porque poderia ter uma ajuda dos antigos alunos da disciplina, mas como meus companheiros de grupo preferiam contribuir com o Git, então decidi acompanhá-los.'
   },
   {
-    color: 'darkblue',
+    color: 'indigo',
     date: '14/05/2025',
     title: 'Contribuição para o Git',
     content: `Cada um de nós contribuiu para alguma ideia do Google Summer of Code. No meu caso, fiz uma contribuição simples ao arquivo add-interactive.c, em que retirei o macro #define DISABLE_SIGN_COMPARE_WARNINGS e corrigi os warnings decorrentes dessa alteração. Na maioria dos casos, foi necessário apenas converter uma variável com o tipo unsigned int ou unsigned long int para long int. Por exemplo:
@@ -266,30 +266,144 @@ https://staticthinking.wordpress.com/2023/07/25/wsign-compare-is-garbage/
 Dada esta resposta, ainda tenho que consertar meu patch e mandar novamente para conseguir que ele seja aprovado. Pretendo fazer isso na semana seguinte. Se não for possível, vou partir para outra contribuição.`
 	},
 	{
-		color:'darkblue',
-		date:'21/04/2025',
+		color:'indigo',
+		date:'21/05/2025',
 		title:'Novas apresentações',
-		content:'Novo pitch sobre os novos patches para projetos do ecossistema Linux'
+		content:'Novo pitch sobre os novos patches para projetos do ecossistema Linux.'
 	},
 	{
 		color:'crimson',
-    	date: '28/04/2025',
+    	date: '28/05/2025',
     	title: '',
     	content: 'Não teve aula. Segundo break.'
+	},
+	{
+		color:'darkmagenta',
+    	date: '04/06/2025',
+    	title: 'Instalação do Debian',
+    	content: 'Última apresentação sobre software livre e videoconferência com dois contribuidores do Debian. Instalação de imagem do Debian no QEMU. Tivemos que modificar o arquivo de ativação e criar um novo espaço para o sistema operacional.'
+	},
+	{
+		color:'darkmagenta',
+    	date: '11/06/2025',
+    	title: 'Contribuição para o Debian',
+    	content: 'Continuação da videoconferência com o pessoal do Debian e commit para o repositório do Debian.'
+	}
+	,
+	{
+		color:'darkmagenta',
+    	date: '18/06/2025',
+    	title: 'Início das apresentações finais',
+    	content: `Apresentação de quatro duplas sobre as realizações deste semestre na segunda metade da aula, enquanto ocorre a preparação para a apresentação na primeira metade. Os demais do meu trio não vieram. Fiquei responsável em representar o grupo.
+    	Nossa contribuição foi aceita:
+    	
+<pre><code>
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 11 Jun 2025 19:02:55 +0000
+Source: golang-github-prometheus-client-golang
+Architecture: source
+Version: 1.21.1-2~exp1
+Distribution: experimental
+Urgency: medium
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Changed-By: eijiuchiyama <eijiuchiyama@usp.br>
+Changes:
+ golang-github-prometheus-client-golang (1.21.1-2~exp1) experimental; urgency=medium
+ .
+   * Team upload.
+   * d/control: bump standards version to 4.7.2
+Checksums-Sha1:
+ e5826eca96b9e77dd5f32ec5b340c7de3798273a 2900 golang-github-prometheus-client-golang_1.21.1-2~exp1.dsc
+ 1c49a7cca81e0061584fa8ac2f08a8a37f79ab91 1095404 golang-github-prometheus-client-golang_1.21.1.orig.tar.gz
+ c9a3b026b621e3e11e4886e16d9a431793783669 9212 golang-github-prometheus-client-golang_1.21.1-2~exp1.debian.tar.xz
+Checksums-Sha256:
+ e58ce9e42330e28afb8ec8a9171db07e2218bb7b8c086bc7d4dada127385437c 2900 golang-github-prometheus-client-golang_1.21.1-2~exp1.dsc
+ 9e34682ae79f80eb17afe73d1d7800574af63d63af5c4a0be859751e07446b42 1095404 golang-github-prometheus-client-golang_1.21.1.orig.tar.gz
+ c3d2d6438f3b894293f6d352d93891588c2e87a68eba1c3a0139139ac7a5c5c9 9212 golang-github-prometheus-client-golang_1.21.1-2~exp1.debian.tar.xz
+Files:
+ fb3633a7fd4137d4a4ef8a4c7d66980c 2900 golang optional golang-github-prometheus-client-golang_1.21.1-2~exp1.dsc
+ 59a124718230beae8e4f08893fe1443b 1095404 golang optional golang-github-prometheus-client-golang_1.21.1.orig.tar.gz
+ 3632c58c0830eb573566ead0d8ac1074 9212 golang optional golang-github-prometheus-client-golang_1.21.1-2~exp1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJJBAEBCgAzFiEEjtbD+LrJ23/BMKhw+COicpiDyXwFAmhMc6MVHGthbmFzaGly
+b0BkZWJpYW4ub3JnAAoJEPgjonKYg8l8LwoP/0hPKqyh7HtkU/sNTU8Nhh88SKMb
+XqXw5YqlykCIcQCczxG4pmp4UoS/CV06JoQ8K2oC4EeJtFBKlRdeA1S08Q+YPnSX
+63i6ODUI0xhYTAxcKMyDTAL7HPmnpfcXF3fUhc8eidW0R2inKD/wVEWt0IpbdukQ
+8oYlAGtX19bC09AJ1QPvOWQjwWqHN4BexUEYGQtzvKcnv6uE5dmclKfRtKmp4FsN
+9gbk/2te9bm+iqZiAjhg0hPFJEm3TEaFMGjQqptc/1Z5Aimwni+nPNAxGaFvguFZ
+JeEXMnBE9M2oo+24gr4/eaY/LYt0OAy14yDgjuzydXVn6GtGnw38ojqvaH9lJ1gT
+/fNp/xidkillgvem2rN0Zv5FHTqdLFaL7fvo15feKhC34B7SuU8VwnWbqGPM8V47
+sQHsD6L2CWwynyJLjDgcbT0b40WbGni2c49Z07qX+/yCIlx8aTURidO7ihw9U3aM
+SkM4lDUmWR9OlG6SaureT2bQvTW0A1oH3UANTpLpelf0HG4KBGUDeaKz64uJ83oU
+z8LPFllfdchX3TfnGyTlhe7edMMndiWY7AwRcfNOdxXemKth5yXMSRrPNhktJ6sL
+ca0+BevuWFnpedBoIuG9Vg1LsABtKWvRXd+RZD9JbTiv2Jlw7oL7DIIGdCkAXngg
+McVAG56P8QJbZUSf
+=qV/5
+-----END PGP SIGNATURE-----
+</code></pre>
+`
+	},
+	{
+		color:'darkmagenta',
+    	date: '25/06/2025',
+    	title: 'Apresentações finais',
+    	content: 'Apresentação dos demais grupos.'
 	}
 ];
 
 const postsContainer = document.getElementById('posts');
 
-posts.forEach(post => {
-  const div = document.createElement('div');
-  div.className = 'post';
+// Função para extrair mês e ano da data (formato DD/MM/YYYY)
+function getMonthYear(dateStr) {
+  const [day, month, year] = dateStr.split('/');
+  return `${month}/${year}`; // exemplo: "06/2025"
+}
 
-  const title = post.title ? ` - ${post.title}` : '';
-  div.innerHTML = `<h2>${post.date}${title}</h2><p>${post.content}</p>`;
+// Agrupa os posts por mês/ano
+const postsByMonth = posts.reduce((acc, post) => {
+  const key = getMonthYear(post.date);
+  if (!acc[key]) acc[key] = [];
+  acc[key].push(post);
+  return acc;
+}, {});
 
-  div.style=`background-color:${post.color}`;
-  
-  postsContainer.appendChild(div);
-});
+// Agora renderiza agrupado por mês
+for (const monthYear in postsByMonth) {
+  const monthDiv = document.createElement('div');
+  monthDiv.className = 'month-group';
+
+  // Colocar um título para o mês (ex: Junho/2025)
+  // Opcional: pode criar uma função para converter '06' em 'Junho'
+  const [month, year] = monthYear.split('/');
+  const monthName = new Date(year, month - 1).toLocaleString('pt-BR', { month: 'long' });
+  const monthTitle = document.createElement('h1');
+  monthTitle.textContent = `${monthName.charAt(0).toUpperCase() + monthName.slice(1)} / ${year}`;
+  monthDiv.appendChild(monthTitle);
+
+  // Criar os posts desse mês
+  postsByMonth[monthYear].forEach(post => {
+    const div = document.createElement('div');
+    div.className = 'post';
+
+    const title = post.title ? ` - ${post.title}` : '';
+    div.innerHTML = `<h2>${post.date}${title}</h2><p>${post.content}</p>`;
+
+    div.style.backgroundColor = post.color;
+    
+    monthDiv.appendChild(div);
+  });
+
+  postsContainer.appendChild(monthDiv);
+}
 
