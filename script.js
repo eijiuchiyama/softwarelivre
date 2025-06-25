@@ -352,13 +352,15 @@ McVAG56P8QJbZUSf
 =qV/5
 -----END PGP SIGNATURE-----
 </code></pre>
+
+Infelizmente, em relação ao nosso código da nossa contribuição para o kernel linux, eu perdi a modificação por conta de algum problema.
 `
 	},
 	{
 		color:'darkmagenta',
     	date: '25/06/2025',
     	title: 'Apresentações finais',
-    	content: 'Apresentação dos demais grupos.'
+    	content: 'Apresentação dos demais grupos, inclusive do nosso. Consegui as modificações feitas no dps310.c através do Fernando, mas não pude inserir a tempo, devido à grande quantidade de atividades a serem feitas no fim do semestre.'
 	}
 ];
 
